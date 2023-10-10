@@ -1,0 +1,58 @@
+---
+title: "Module - Batch Correction"
+author: "BTC Pipeline"
+date: "`r Sys.time()`"
+output:
+  html_document:
+    toc: TRUE
+    toc_float: TRUE
+    toc_depth: 4
+    code_folding: show
+    theme: united
+    df_print: paged
+    self_contained: TRUE
+params:
+  project_name: 'Test'
+---
+
+------------------------------------------------------------------------
+
+# Project Name: `r params$project_name`
+
+```{r setup, include = FALSE, message = FALSE, warning = FALSE, echo = FALSE}
+
+# Project
+project_name <- params$project_name
+
+# Rmarkdown options
+knitr::opts_chunk$set(
+  echo = TRUE,
+  error = TRUE,
+  message = FALSE,
+  warning = FALSE,
+  fig.height = 8,
+  fig.width = 12,
+  fig.align = 'center'
+  )
+
+knitr::opts_knit$set(
+  root.dir = getwd()
+  )
+
+```
+
+## Loading library
+
+```{r hello}
+
+print("Hi ", project_name)
+
+```
+
+## Session info
+
+```{r session_info, message = FALSE, warning = FALSE, echo = FALSE}
+
+sessionInfo()
+
+```
