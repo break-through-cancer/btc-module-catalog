@@ -2,16 +2,17 @@ process TEST {
     tag "Test"
     label 'process_high'
 
-    publishDir "$baseDir", mode: 'copy'
+    debug true
 
-    output:
-        path("*.html")
+    publishDir "$baseDir", mode: 'copy'
 
     when:
         task.ext.when == null || task.ext.when
 
     script:
-        template 'render_notebook.R'
+        """
+        """
+
     stub:
         """
         """
