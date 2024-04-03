@@ -1,5 +1,5 @@
 
-> THIS REPOSITORY IS SHAMELESS AND SIMPLIED COPY FROM NF-CORE MODULES. THEREFORE, IT IS UNDER ACTIVE DEVELOPMENT. 
+> THIS REPOSITORY IS A SHAMELESS AND SIMPLIFIED COPY OF NF-CORE MODULES. THEREFORE, IT IS UNDER ACTIVE DEVELOPMENT. 
 
 A repository for hosting [Nextflow DSL2](https://www.nextflow.io/docs/latest/dsl2.html) module files containing tool-specific process definitions and their associated documentation.
 
